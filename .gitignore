@@ -30,3 +30,8 @@ TuioDump
 TuioDemo
 
 SimpleSimulator
+
+Debug/*
+Release/*
+*.sdf
+*.suo
