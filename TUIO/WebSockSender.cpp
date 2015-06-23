@@ -20,7 +20,7 @@
 
 #ifdef  WIN32
 #ifndef int32_t
-typedef DWORD int32_t;
+//typedef DWORD int32_t;
 #endif
 #endif
 
@@ -108,7 +108,7 @@ void WebSockSender::newClient( int tcp_client ) {
 	strncat(key,"258EAFA5-E914-47DA-95CA-C5AB0DC85B11",sizeof(key)-strlen(key)-1);
 	sha1(digest,(uint8_t*)key,strlen(key));
 
-	snprintf(buf, sizeof(buf),
+	_snprintf(buf, sizeof(buf),
 		"HTTP/1.1 101 Switching Protocols\r\n"
 		"Upgrade: websocket\r\n"
 		"Connection: Upgrade\r\n"

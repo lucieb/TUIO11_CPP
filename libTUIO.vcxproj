@@ -133,6 +133,7 @@
     <ClCompile Include="TUIO\TuioTime.cpp" />
     <ClCompile Include="TUIO\UdpReceiver.cpp" />
     <ClCompile Include="TUIO\UdpSender.cpp" />
+    <ClCompile Include="TUIO\WebSockSender.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="oscpack\ip\NetworkingUtils.h" />
@@ -163,6 +164,7 @@
     <ClInclude Include="TUIO\TuioTime.h" />
     <ClInclude Include="TUIO\UdpReceiver.h" />
     <ClInclude Include="TUIO\UdpSender.h" />
+    <ClInclude Include="TUIO\WebSockSender.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
